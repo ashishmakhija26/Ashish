@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="104.573466">
+<testcase classname="Deal data creation" name="FREE  deals test scenario" time="104.573466">
+<failure message="org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//span[@class='item-text' and text()='Deals']&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-5RD309O', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at stepDefinations.DealStepDefination.user_mouse_over_on_Deals_link(DealStepDefination.java:80)&#13;&#10;&#9;at ✽.Then : user mouse over on Deals link(E:/Automation/FreeCrmBDDFrameWork/src/main/java/Features/deals.feature:12)&#13;&#10;"><![CDATA[Given : user is already login page..........................................passed
+Then : title at login page is Free CRM......................................passed
+Then : user enter username and password.....................................passed
+Then : user click on login button...........................................passed
+Then : user is on Home Page.................................................passed
+Then : user mouse over on Deals link........................................failed
+Then : user clicks on new Deals link........................................skipped
+Then : user enter Deals details.............................................skipped
+Then : user clicks on save button...........................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//span[@class='item-text' and text()='Deals']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5RD309O', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepDefinations.DealStepDefination.user_mouse_over_on_Deals_link(DealStepDefination.java:80)
+	at ✽.Then : user mouse over on Deals link(E:/Automation/FreeCrmBDDFrameWork/src/main/java/Features/deals.feature:12)
+]]></failure>
+</testcase>
+</testsuite>
